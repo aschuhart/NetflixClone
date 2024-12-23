@@ -15,7 +15,6 @@ const Login = () => {
       <div className="login-form">
         <h1>{signState}</h1>
         <form>
-          {/* Conditionally render input field for "Your name" */}
           {signState === "Sign Up" && <input type="text" placeholder='Your name' />}
           <input type="email" placeholder='Email' />
           <input type="password" placeholder='Password' />

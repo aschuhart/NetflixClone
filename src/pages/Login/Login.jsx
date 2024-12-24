@@ -10,7 +10,7 @@ const Login = () => {
   };
 
   return (
-    <div className='Login'>
+    <div className='login'>
       <img src={logo} className='login-logo' alt="Logo" />
       <div className="login-form">
         <h1>{signState}</h1>
